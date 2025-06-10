@@ -29,8 +29,17 @@ wp-config.php
 # Uploads
 /wp-content/uploads/
 
+# Backup files
+/wp-content/upgrade/
+/wp-content/cache/
+/db_data/
+
 # Log files
 *.log
+
+# Configuration files
+.env
+/secrets
 
 # htaccess
 /.htaccess
@@ -46,3 +55,7 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# Never commit service account credentials
+service-account.json
+*.json
