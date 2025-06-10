@@ -13,4 +13,7 @@ VOLUME ["/cloudsql"]
 # Copy in your custom themes/plugins/etc.
 COPY wp-content /var/www/html/wp-content
 
+# Copy health check script to web root
+COPY healthcheck.php /var/www/html/healthcheck.php
+
 CMD ["apache2-foreground"]
