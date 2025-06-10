@@ -4,7 +4,7 @@ services:
   wordpress:
     image: wordpress:latest
     ports:
-      - "8000:80"
+      - "8080:80"
     environment:
       WORDPRESS_DB_HOST: ${CFA_WP_DB_HOST}
       WORDPRESS_DB_PORT: ${CFA_WP_DB_PORT}
