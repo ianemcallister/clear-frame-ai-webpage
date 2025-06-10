@@ -1,0 +1,835 @@
+/**
+ * Common SCSS for backend css
+*/
+.gutentools-typography-options-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gutentools-typography-options-actions > div {
+  display: flex;
+  align-items: center;
+}
+.gutentools-typography-options-actions > div button:first-child {
+  background: #eee;
+  margin-right: 8px;
+  border-radius: 3px;
+}
+
+.gutentools-typography-advanced {
+  box-shadow: -3px 4px 10px #eee;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 15px;
+  border: 1px solid #e6e6e6;
+}
+
+.gutentools-typegraphy-options {
+  margin-bottom: 15PX;
+}
+
+.gutentools-label-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 12px;
+}
+
+.gutentools-dimension-input .gutentools-lists ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.gutentools-dimension-input .gutentools-lists ul li {
+  max-width: 20%;
+  flex: 0 0 20%;
+  position: relative;
+  padding-top: 25px;
+  margin-bottom: 0;
+}
+.gutentools-dimension-input .gutentools-lists ul li:first-child input {
+  border-left: 1px solid #bababa;
+}
+.gutentools-dimension-input .gutentools-lists ul li > div {
+  margin-bottom: 0;
+}
+.gutentools-dimension-input .gutentools-lists ul li > div > div {
+  margin-bottom: 0;
+  border-top: 1px solid #bababa;
+  border-bottom: 1px solid #bababa;
+}
+.gutentools-dimension-input .gutentools-lists ul li > div input {
+  padding: 5px !important;
+  border: none;
+  border-right: 1px solid #bababa;
+  height: 32px !important;
+}
+.gutentools-dimension-input .gutentools-lists ul li label {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 3px;
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.gutentools-dimension-input button.components-button.gutentools-link {
+  padding: 0;
+  background: #007cba;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  height: 34px;
+  border-radius: 0;
+  outline: none;
+}
+.gutentools-dimension-input button.components-button.gutentools-link span {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.gutentools-dimension-input button.components-button.gutentools-link.linked {
+  background: #0079ff;
+}
+
+.gutentools-responsive-view-icons button.components-button {
+  padding: 4px;
+  font-size: 12px;
+  height: 25px;
+  width: 24px;
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+.gutentools-responsive-view-icons button.components-button span {
+  height: auto;
+  font-size: 10px;
+}
+.gutentools-responsive-view-icons button.components-button.active {
+  background-color: #0079ff;
+  color: #fff;
+}
+.gutentools-responsive-view-icons button.components-button:focus {
+  outline: none;
+}
+
+.gutentools-size-units {
+  min-height: auto;
+}
+.gutentools-size-units .components-button {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  margin: 0 1px;
+  height: auto;
+  font-size: 12px;
+  padding: 0 2px;
+}
+.gutentools-size-units .components-button.active {
+  color: #0079ff;
+}
+.gutentools-size-units .components-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+button.components-button.gutentools-btn-reset,
+.components-range-control__reset,
+.components-circular-option-picker__custom-clear-wrapper button, .gutentools-btn-reset-wrapper button.components-button {
+  background: #d2d2d2 !important;
+  border: none !important;
+  color: #000 !important;
+  border-radius: 4px;
+  box-shadow: none !important;
+}
+button.components-button.gutentools-btn-reset:hover,
+.components-range-control__reset:hover,
+.components-circular-option-picker__custom-clear-wrapper button:hover, .gutentools-btn-reset-wrapper button.components-button:hover {
+  background-color: #000 !important;
+  color: #ffffff !important;
+}
+
+.gutentools-btn-reset-wrapper {
+  text-align: right;
+}
+label.components-base-control__label {
+  font-size: 12px !important;
+  font-weight: 500;
+  text-transform: capitalize !important;
+}
+
+span.components-base-control__label:empty {
+  display: none;
+}
+
+.gutentools-responsive-view-icons {
+  min-height: 25px !important;
+}
+
+.block-editor-block-inspector .gutentools-tab-panel .gutentools-dimension-input .components-base-control:where(:not(:last-child)),
+.block-editor-block-inspector .gutentools-tab-panel .gutentools-responsive-range-control .components-base-control:where(:not(:last-child)) {
+  margin: 0;
+}
+
+.gutentools-repeater-wrapper .components-base-control {
+  margin-bottom: 0;
+}
+.gutentools-repeater-wrapper .gutentools-item {
+  display: flex;
+  width: 100%;
+}
+.gutentools-repeater-wrapper .gutentools-item .gutentools-repeater-selects {
+  width: 80%;
+}
+.gutentools-repeater-wrapper .gutentools-item button.components-button.remove {
+  height: 32px;
+  background: #322b2b;
+  color: #fff;
+  border-radius: 0 3px 3px 0;
+}
+.gutentools-repeater-wrapper .gutentools-item button.components-button.remove:hover {
+  background-color: rgb(84, 42, 42);
+}
+
+.gutentools-icon-selector {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 0 10px #b3b3b3;
+  border-radius: 10px;
+}
+.gutentools-icon-selector .gutentools-icon-items-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gutentools-icon-selector .gutentools-icon-items-wrapper > div {
+  max-width: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  margin: 5px;
+  height: 34px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.gutentools-icon-selector .gutentools-icon-items-wrapper > div a {
+  color: #000;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.gutentools-icon-selector .gutentools-icon-items-wrapper > div.active {
+  background-color: #007cba;
+  color: #fff;
+}
+.gutentools-icon-selector .gutentools-icon-items-wrapper > div.active a {
+  color: #fff;
+}
+
+.gutentools-icon-selector-search input {
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  height: 40px;
+  border-radius: 8px;
+}
+
+h2.gutentools-icon-label {
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+}
+
+.gutentools-icon-selector-pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+.gutentools-icon-selector-pagination span.search-label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+ul.gutentools-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+ul.gutentools-pagination li {
+  margin: 0 6px;
+}
+ul.gutentools-pagination li a {
+  color: #000;
+  text-decoration: none;
+}
+ul.gutentools-pagination li.active a {
+  color: #007cba;
+}
+
+.components-base-control__field .gutentools-icon-selector {
+  background: #fff;
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0;
+}
+.components-base-control__field .gutentools-icon-selector button.gutentools-icon-selector-button {
+  background: #007cba;
+  border: none;
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.components-base-control__field .gutentools-icon-selector button.gutentools-icon-selector-button i {
+  margin: 0 8px;
+}
+
+button.gutentools-image-uploader-trigger {
+  display: block;
+  width: 100%;
+  height: 150px;
+  border: 1px solid #eee;
+  background-position: center;
+  cursor: pointer;
+  background-image: url(../../../img/default.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+button.gutentools-image-uploader-delete {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: 1px solid #eee;
+  padding: 10px;
+  background: #007cba;
+  color: #fff;
+  transition: all 0.3s;
+}
+button.gutentools-image-uploader-delete:hover {
+  background-color: #8E0C0C;
+}
+
+button.components-button.components-circular-option-picker__clear {
+  height: auto !important;
+}
+
+.gutentools-importer-popup-contents {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.73);
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+.gutentools-importer-popup-contents * {
+  box-sizing: border-box;
+}
+.gutentools-importer-popup-contents .gutentools-importer-popup-wrapper {
+  background: #fff;
+  max-width: 1350px;
+  width: 100%;
+  border-radius: 8px;
+  height: 85vh;
+  margin: auto;
+  position: relative;
+}
+
+.gutentools-importer-popup-open .gutentools-importer-popup-contents {
+  opacity: 1;
+  z-index: 9999;
+  visibility: visible;
+}
+
+.gutentools-importer-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.141);
+}
+.gutentools-importer-header ul {
+  display: flex;
+  margin: 0;
+}
+.gutentools-importer-header ul li {
+  margin: 0 15px 0 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+.gutentools-importer-header ul li a {
+  color: #000;
+  text-decoration: none;
+  border: 1px solid #eee;
+  padding: 10px 25px;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+.gutentools-importer-header ul li a span {
+  margin-right: 6px;
+}
+.gutentools-importer-header ul li a:focus {
+  outline: none;
+  box-shadow: none;
+}
+.gutentools-importer-header ul li a:hover, .gutentools-importer-header ul li a.active {
+  color: #fff;
+  background: #0079ff;
+  border-color: #0079ff;
+}
+.gutentools-importer-header ul li.active a {
+  color: #fff;
+  background: #0079ff;
+  border-color: #0079ff;
+}
+.gutentools-importer-header .gutentools-support-link a {
+  background: #0079ff;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s;
+}
+.gutentools-importer-header .gutentools-support-link a span {
+  margin-right: 6px;
+}
+.gutentools-importer-header .gutentools-support-link a.pro-link {
+  background-color: #ff5800;
+  color: #fff;
+}
+.gutentools-importer-header .gutentools-support-link a:hover {
+  background-color: #065cbc;
+  color: #fff;
+}
+.gutentools-importer-header .gutentools-support-link {
+  display: flex;
+  align-items: center;
+}
+.gutentools-importer-header button.gutentools-importer-close {
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 25px -10px rgba(0, 0, 0, 0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.gutentools-importer-header button.gutentools-importer-close span {
+  font-size: 21px;
+}
+.gutentools-importer-header button.gutentools-importer-close:hover {
+  background-color: #065cbc;
+  color: #fff;
+}
+
+.gutentools-importer-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-sidebar {
+  flex: 0 0 230px;
+  border-right: 1px solid #eee;
+  overflow: auto;
+  height: 72vh;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.gutentools-importer-content-wrapper .gutentools-importer-sidebar::-webkit-scrollbar {
+  display: none;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-sidebar ul {
+  margin: 0;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-sidebar ul li {
+  margin: 0;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-sidebar ul li a {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin: 0;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-sidebar ul li a:first-child {
+  border-top: 1px solid #eee;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-sidebar ul li a:focus {
+  outline: none;
+  box-shadow: none;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-sidebar ul li:hover a, .gutentools-importer-content-wrapper .gutentools-importer-sidebar ul li.active a {
+  background-color: #0079ff;
+  color: #fff;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-templates {
+  flex: calc(100% - 260px);
+  max-width: calc(100% - 260px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-right: 30px;
+  padding-top: 30px;
+  height: 72vh;
+  overflow: auto;
+  padding-bottom: 30px;
+  align-items: flex-start;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-templates .demo-box {
+  max-width: 30.33%;
+  flex: 0 0 30.33%;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.141);
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.gutentools-importer-content-wrapper .gutentools-importer-templates .demo-box img {
+  max-width: 100%;
+  border-radius: 8px 8px 0 0;
+  height: 250px;
+  overflow: hidden;
+  object-fit: contain;
+}
+.gutentools-importer-content-wrapper .template-content {
+  padding: 0;
+  border-top: none;
+  margin-top: 0;
+}
+.gutentools-importer-content-wrapper .template-content h3 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000000;
+  padding: 10px;
+}
+.gutentools-importer-content-wrapper .template-content > div {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #eee;
+  padding: 15px 20px;
+  align-items: center;
+}
+.gutentools-importer-content-wrapper .template-content > div .insert {
+  margin: 0;
+}
+.gutentools-importer-content-wrapper .template-content > div .insert a {
+  margin: 0;
+  border: 1px solid #0079ff;
+  padding: 6px 15px;
+  border-radius: 3px;
+  background-color: #0079ff;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  min-height: 35px;
+}
+.gutentools-importer-content-wrapper .template-content > div .insert a span {
+  margin-right: 6px;
+}
+.gutentools-importer-content-wrapper .template-content > div .insert a:hover {
+  background-color: #0863c9;
+  color: #fff;
+}
+.gutentools-importer-content-wrapper .template-content > div .insert a.gutentools-get-pro {
+  border: 1px solid #053f7e;
+  background-color: #053f7e;
+}
+.gutentools-importer-content-wrapper .template-content > div .insert a.disable {
+  opacity: 0.3;
+  pointer-events: none;
+}
+.gutentools-importer-content-wrapper .template-content > div .demo-link {
+  border: 1px solid #eee;
+  color: #000;
+  padding: 6px 15px;
+  border-radius: 3px;
+  text-decoration: none;
+  cursor: pointer;
+  min-height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.gutentools-importer-content-wrapper .template-content > div .demo-link span {
+  margin-right: 6px;
+}
+.gutentools-importer-content-wrapper .template-content > div .demo-link:hover {
+  background-color: #065cbc;
+  color: #fff;
+}
+
+/* HTML: <div class="ribbon">Your text content</div> */
+.ribbon {
+  font-size: 12px;
+  font-weight: normal;
+  color: #fff;
+  position: absolute;
+  right: 8px;
+  padding: 5px;
+  background: #0079ff;
+  min-width: 40px;
+  text-align: center;
+  top: 8px;
+  line-height: 1.2;
+  border-radius: 3px;
+  display: none;
+}
+.ribbon.pro {
+  background-color: #ff5800;
+}
+
+span.ribbon.new {
+  left: 8px;
+  right: auto;
+  background: #9b40bc;
+}
+
+#gutentool_importer {
+  background-color: #0079ff;
+  color: #fff;
+  border-radius: 4px;
+}
+#gutentool_importer span {
+  margin-right: 6px;
+}
+
+.gutentools-free-pro-fiter a {
+  color: #000;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 0 5px;
+  border: 1px solid #eee;
+  padding: 4px 15px;
+  border-radius: 6px;
+  background: #eee;
+  transition: all 0.3s;
+}
+.gutentools-free-pro-fiter a:focus {
+  outline: none;
+  box-shadow: none;
+}
+.gutentools-free-pro-fiter a.active, .gutentools-free-pro-fiter a:hover {
+  color: #fff;
+  background: #0079ff;
+  border-color: #0079ff;
+}
+
+.gutentools-importer-content-wrapper svg.components-spinner {
+  position: absolute;
+  z-index: 999;
+  left: 250px;
+  right: 0;
+  margin: auto;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 60px !important;
+  width: 60px;
+}
+
+nav.gutentools-pagination-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+  background: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+nav.gutentools-pagination-nav li.gutentools-page-item a {
+  background: #eee;
+  padding: 5px;
+  border-radius: 4px;
+  width: 30px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+}
+nav.gutentools-pagination-nav li.gutentools-page-item:hover a, nav.gutentools-pagination-nav li.gutentools-page-item.active a {
+  background-color: #0079ff;
+  color: #fff;
+}
+
+.gutentools-custom-tab {
+  display: flex;
+  align-items: center;
+}
+.gutentools-custom-tab li a {
+  text-decoration: none;
+  border: 1px solid #cec8c8;
+  display: block;
+  padding: 4px 15px;
+}
+.gutentools-custom-tab li a div {
+  display: flex;
+  color: #000;
+  align-items: center;
+}
+.gutentools-custom-tab li a div span {
+  margin-left: 8px;
+}
+.gutentools-custom-tab li a.active {
+  background-color: #0079ff;
+  border-color: #0079ff;
+}
+.gutentools-custom-tab li a.active div {
+  color: #fff;
+}
+.gutentools-custom-tab li a:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.components-tab-panel__tabs {
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 10px 6px;
+}
+.components-tab-panel__tabs button {
+  background-color: #eee;
+  width: 33.33%;
+  border: 1px solid #e2e2e2;
+  text-align: center;
+  justify-content: center;
+  height: 35px;
+}
+.components-tab-panel__tabs button.gutentools-active-tab {
+  background-color: #0079ff;
+  border-color: #0079ff;
+  color: #fff;
+}
+
+.components-base-control.gutentools-tab-wrapper.gutentools-tabbed-color-control,
+.components-grid.components-tools-panel.block-editor-panel-color-gradient-settings {
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: none !important;
+}
+
+.components-border-box-control > label {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  text-transform: capitalize !important;
+  font-size: 12px;
+}
+
+.inspector-alignment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inspector-alignment > div {
+  max-width: 110px;
+  margin-bottom: 0 !important;
+}
+.inspector-alignment > div .components-base-control__label {
+  display: block;
+  width: 178px;
+  word-wrap: inherit;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 0;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+label.components-text,
+.components-circular-option-picker__swatches h2,
+span.components-base-control__label {
+  text-transform: capitalize !important;
+  font-weight: 500;
+  font-size: 12px !important;
+}
+
+span.components-base-control__label {
+  display: inline-flex;
+  align-items: center;
+}
+span.components-base-control__label span.component-color-indicator {
+  margin-left: 10px;
+}
+
+.gutentools-responsive-range-control + .gutentools-btn-reset-wrapper {
+  margin-top: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gutentools-align-left {
+  text-align: left;
+}
+
+.gutentools-align-right {
+  text-align: right;
+}
+
+.gutentools-align-center {
+  text-align: center;
+}
+
+.is-content-justification-left {
+  margin: 0 auto 0 0;
+  left: 0;
+  right: 0;
+}
+
+.is-content-justification-right {
+  margin: 0 0 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.is-content-justification-center {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=editor.css.map */

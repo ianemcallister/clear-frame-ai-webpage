@@ -24,7 +24,7 @@ steps:
           --platform=managed \
           --allow-unauthenticated \
           --add-cloudsql-instances=$PROJECT_ID:us-west1:clear-frame-ai \
-          --set-env-vars=DB_HOST=/cloudsql/$PROJECT_ID:us-west1:clear-frame-ai,DB_NAME=wordpress,DB_USER=$DB_USER,DB_PASS=$DB_PASS
+          --set-env-vars=WORDPRESS_DB_HOST=/cloudsql/$PROJECT_ID:us-west1:clear-frame-ai,WORDPRESS_DB_NAME=wordpress,WORDPRESS_DB_USER=$DB_USER,WORDPRESS_DB_PASSWORD=$DB_PASS,WORDPRESS_DB_PORT=3306
     secretEnv:
       - DB_USER_SECRET
       - DB_PASS_SECRET

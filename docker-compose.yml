@@ -15,14 +15,19 @@ services:
       - ./wp-content:/var/www/html/wp-content
     depends_on:
       - cloudsqlproxy
+    networks:
+      - wpnet
 
   cloudsqlproxy:
     image: gcr.io/cloudsql-docker/gce-proxy:1.33.10
     command: >
       /cloud_sql_proxy
-      -instances=dev-portfolio-435323:us-west1:clear-frame-ai=tcp:3306
+      -instances=dev-portfolio-435323:us-west1:clear-frame-ai=tcp:0.0.0.0:3306
       -credential_file=/secrets/dev-portfolio-435323-8b2b9c9a7009.json
     volumes:
       - ./secrets:/secrets:ro
-    ports:
-      - "3306:3306"
+    networks:
+      - wpnet
+
+networks:
+  wpnet:

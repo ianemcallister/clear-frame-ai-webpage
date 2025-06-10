@@ -1,0 +1,43 @@
+/**
+ * Common SCSS for front end and backend css
+*/
+*[class^=gutentools-] .fa {
+  font-family: "Font Awesome 5 Free";
+}
+
+* {
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+.gutentools-align-left {
+  text-align: left;
+}
+
+.gutentools-align-right {
+  text-align: right;
+}
+
+.gutentools-align-center {
+  text-align: center;
+}
+
+.is-content-justification-left {
+  margin: 0 auto 0 0;
+  left: 0;
+  right: 0;
+}
+
+.is-content-justification-right {
+  margin: 0 0 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.is-content-justification-center {
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

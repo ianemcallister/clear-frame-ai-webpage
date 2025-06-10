@@ -1,0 +1,1361 @@
+# Copyright (C) 2025 Gutentools
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gutentools 1.0.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gutentools\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-05-07T04:48:09+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: gutentools\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: gutentools.php
+#: gutentools/inc/admin-page.php:7
+#: gutentools/inc/plugin-page.php:26
+#: gutentools/inc/plugin-page.php:27
+#: inc/admin-page.php:7
+#: inc/plugin-page.php:26
+#: inc/plugin-page.php:27
+msgid "Gutentools"
+msgstr ""
+
+#. Description of the plugin
+#: gutentools.php
+msgid "Gutentools is a powerful block editor plugin designed for seamless full-site editing. It offers a range of customizable blocks, including page and post sliders, containers, and more, all with flexible responsive controls. With an intuitive drag-and-drop visual editor, you can easily create engaging layouts and dynamic content for any device. Unlock the full potential of WordPress with blocks that are tailored for a smooth design experience."
+msgstr ""
+
+#. Author URI of the plugin
+#: gutentools.php
+msgid "https://gutentools.com/"
+msgstr ""
+
+#: core/block_configuration.php:32
+#: gutentools/core/block_configuration.php:32
+msgid "GutenTools"
+msgstr ""
+
+#: gutentools/inc/admin-notice.php:22
+#: inc/admin-notice.php:22
+msgid "Gutentools Pro"
+msgstr ""
+
+#: gutentools/inc/admin-notice.php:23
+#: gutentools/inc/admin-page.php:21
+#: inc/admin-notice.php:23
+#: inc/admin-page.php:21
+msgid "Unlock your website’s potential with GutenTools – the flexible, user-friendly Gutenberg visual sitebuilder for WordPress."
+msgstr ""
+
+#: gutentools/inc/admin-notice.php:25
+#: gutentools/inc/admin-page.php:23
+#: inc/admin-notice.php:25
+#: inc/admin-page.php:23
+msgid "Upgrade To Pro"
+msgstr ""
+
+#: gutentools/inc/admin-notice.php:26
+#: inc/admin-notice.php:26
+msgid "Plugin Info"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:8
+#: inc/admin-page.php:8
+msgid "Gutentools: Empowering you to create beautiful, responsive websites with ease using flexible Gutenberg blocks."
+msgstr ""
+
+#: gutentools/inc/admin-page.php:11
+#: inc/admin-page.php:11
+msgid "Version: "
+msgstr ""
+
+#: gutentools/inc/admin-page.php:20
+#: inc/admin-page.php:20
+msgid "Upgrade To PRO & Enjoy Advanced Features!"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:27
+#: inc/admin-page.php:27
+msgid "Gutentools Blocks"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:42
+#: inc/admin-page.php:42
+msgid "View Details"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:54
+#: inc/admin-page.php:54
+msgid "Templates & Patterns"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:55
+#: inc/admin-page.php:55
+msgid "Explore the possibilities with Gutentools – the versatile, intuitive Gutenberg site builder for WordPress. Check out our stunning templates and pattern demos today!"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:56
+#: inc/admin-page.php:56
+msgid "Check our Demos"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:59
+#: inc/admin-page.php:59
+msgid "Documentation"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:60
+#: inc/admin-page.php:60
+msgid "Unlock the full potential of Gutentools with our comprehensive documentation – your go-to guide for mastering templates, patterns, and all the powerful features of our Gutenberg site builder. Check it out now!"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:61
+#: inc/admin-page.php:61
+msgid "Read Documentation"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:64
+#: inc/admin-page.php:64
+msgid "Help & Support"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:65
+#: inc/admin-page.php:65
+msgid "Have questions or need assistance? Contact us today! Our team is here to help you get the most out of Gutentools."
+msgstr ""
+
+#: gutentools/inc/admin-page.php:66
+#: inc/admin-page.php:66
+msgid "Contact Us"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:69
+#: inc/admin-page.php:69
+msgid "Recommended Themes"
+msgstr ""
+
+#: gutentools/inc/admin-page.php:70
+#: inc/admin-page.php:70
+msgid "Discover themes that perfectly complement Gutentools."
+msgstr ""
+
+#: gutentools/inc/admin-page.php:71
+#: inc/admin-page.php:71
+msgid "Check Our Themes"
+msgstr ""
+
+#: src/blocks/advance-heading/components/edit.js:108
+#: src/blocks/icon-box/components/edit.js:213
+#: src/blocks/team-member/components/edit.js:261
+msgid "Heading..."
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:42
+#: src/blocks/advance-heading/components/inspector.js:69
+#: src/blocks/call-to-actions/components/inspector.js:62
+#: src/blocks/call-to-actions/components/inspector.js:106
+#: src/blocks/container/components/inspector.js:111
+#: src/blocks/count-up/components/inspector.js:65
+#: src/blocks/count-up/components/inspector.js:171
+#: src/blocks/faq/components/inspector.js:41
+#: src/blocks/faq/components/inspector.js:72
+#: src/blocks/icon-box/components/inspector.js:56
+#: src/blocks/icon-box/components/inspector.js:110
+#: src/blocks/post-slider/components/inspector.js:325
+#: src/blocks/progress-bar/components/inspector.js:34
+#: src/blocks/progress-bar/components/inspector.js:73
+#: src/blocks/slider/components/inspector.js:363
+#: src/blocks/star-rating/components/inspector.js:31
+#: src/blocks/star-rating/components/inspector.js:66
+#: src/blocks/team-member/components/inspector.js:57
+#: src/blocks/team-member/components/inspector.js:100
+#: src/blocks/testimonial/components/inspector.js:61
+#: src/blocks/testimonial/components/inspector.js:118
+msgid "General"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:45
+msgid "Show Prefix"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:51
+msgid "Show Suffix"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:74
+#: src/blocks/call-to-actions/components/inspector.js:111
+#: src/blocks/container/components/inspector.js:116
+#: src/blocks/count-up/components/inspector.js:176
+#: src/blocks/faq/components/inspector.js:77
+#: src/blocks/icon-box/components/inspector.js:115
+#: src/blocks/post-slider/components/inspector.js:330
+#: src/blocks/progress-bar/components/inspector.js:78
+#: src/blocks/slider/components/inspector.js:368
+#: src/blocks/star-rating/components/inspector.js:71
+#: src/blocks/team-member/components/inspector.js:105
+#: src/blocks/testimonial/components/inspector.js:123
+msgid "Design"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:79
+#: src/blocks/call-to-actions/components/inspector.js:116
+#: src/blocks/container/components/inspector.js:121
+#: src/blocks/count-up/components/inspector.js:181
+#: src/blocks/faq/components/inspector.js:82
+#: src/blocks/icon-box/components/inspector.js:120
+#: src/blocks/post-slider/components/inspector.js:335
+#: src/blocks/progress-bar/components/inspector.js:83
+#: src/blocks/slider/components/inspector.js:373
+#: src/blocks/star-rating/components/inspector.js:76
+#: src/blocks/team-member/components/inspector.js:110
+#: src/blocks/testimonial/components/inspector.js:128
+msgid "Advanced"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:89
+#: src/blocks/call-to-actions/components/inspector.js:126
+#: src/blocks/count-up/components/inspector.js:191
+#: src/blocks/faq/components/inspector.js:92
+#: src/blocks/icon-box/components/inspector.js:130
+#: src/blocks/progress-bar/components/inspector.js:93
+#: src/blocks/star-rating/components/inspector.js:86
+#: src/blocks/team-member/components/inspector.js:120
+#: src/blocks/testimonial/components/inspector.js:138
+msgid "General Settings"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:94
+msgid "Prefix Radius"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:109
+#: src/blocks/call-to-actions/components/inspector.js:223
+#: src/blocks/count-up/components/inspector.js:219
+#: src/blocks/faq/components/inspector.js:145
+#: src/blocks/icon-box/components/inspector.js:155
+#: src/blocks/post-slider/components/inspector.js:375
+#: src/blocks/progress-bar/components/inspector.js:135
+#: src/blocks/slider/components/inspector.js:452
+#: src/blocks/star-rating/components/inspector.js:109
+#: src/blocks/team-member/components/inspector.js:145
+#: src/blocks/testimonial/components/inspector.js:173
+#: src/custom-control/index.js:194
+#: src/custom-control/index.js:238
+#: src/custom-control/index.js:322
+msgid "Color"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:115
+#: src/blocks/call-to-actions/components/inspector.js:230
+#: src/blocks/count-up/components/inspector.js:274
+msgid "Heading Color"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:126
+msgid "Heading Bg Color"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:137
+msgid "Prefix Color"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:148
+msgid "Prefix Bg Color"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:159
+msgid "Suffix Color"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:169
+msgid "Suffix Bg Color"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:182
+#: src/blocks/call-to-actions/components/inspector.js:255
+#: src/blocks/count-up/components/inspector.js:299
+#: src/blocks/faq/components/inspector.js:202
+#: src/blocks/icon-box/components/inspector.js:218
+#: src/blocks/post-slider/components/inspector.js:432
+#: src/blocks/progress-bar/components/inspector.js:193
+#: src/blocks/slider/components/inspector.js:506
+#: src/blocks/team-member/components/inspector.js:197
+#: src/blocks/testimonial/components/inspector.js:237
+#: src/custom-control/typography.js:21
+msgid "Typography"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:186
+#: src/blocks/call-to-actions/components/inspector.js:260
+#: src/blocks/count-up/components/inspector.js:316
+#: src/blocks/faq/components/inspector.js:206
+msgid "Heading"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:193
+msgid "Prefix"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:202
+msgid "Suffix"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:214
+#: src/blocks/call-to-actions/components/inspector.js:287
+#: src/blocks/container/components/inspector.js:248
+#: src/blocks/count-up/components/inspector.js:379
+#: src/blocks/faq/components/inspector.js:217
+#: src/blocks/icon-box/components/inspector.js:284
+#: src/blocks/post-slider/components/inspector.js:621
+#: src/blocks/progress-bar/components/inspector.js:210
+#: src/blocks/slider/components/inspector.js:674
+#: src/blocks/star-rating/components/inspector.js:142
+#: src/blocks/team-member/components/inspector.js:268
+#: src/blocks/testimonial/components/inspector.js:306
+#: src/custom-control/index.js:168
+msgid "Spacing"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:218
+#: src/blocks/call-to-actions/components/inspector.js:310
+#: src/blocks/count-up/components/inspector.js:423
+msgid "Heading Padding"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:227
+#: src/blocks/call-to-actions/components/inspector.js:321
+#: src/blocks/count-up/components/inspector.js:435
+msgid "Heading Margin"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:237
+msgid "Prefix Padding"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:248
+msgid "Prefix Margin"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:259
+msgid "Suffix Padding"
+msgstr ""
+
+#: src/blocks/advance-heading/components/inspector.js:270
+msgid "Suffix Margin"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:66
+#: src/blocks/count-up/components/inspector.js:111
+msgid "Show Heading"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:72
+#: src/blocks/count-up/components/inspector.js:117
+msgid "Show Sub Heading"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:77
+msgid "Show Button"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:86
+#: src/blocks/container/components/inspector.js:91
+#: src/blocks/count-up/components/inspector.js:366
+#: src/blocks/icon-box/components/inspector.js:141
+#: src/blocks/icon-box/components/inspector.js:272
+#: src/blocks/star-rating/components/inspector.js:95
+#: src/blocks/team-member/components/inspector.js:131
+#: src/blocks/team-member/components/inspector.js:254
+#: src/blocks/testimonial/components/inspector.js:147
+#: src/blocks/testimonial/components/inspector.js:292
+msgid "Border Radius"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:129
+#: src/blocks/count-up/components/inspector.js:194
+msgid "Layout"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:131
+#: src/blocks/count-up/components/inspector.js:196
+msgid "Default"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:133
+#: src/blocks/count-up/components/inspector.js:198
+msgid "Layout Style One"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:137
+#: src/blocks/count-up/components/inspector.js:202
+msgid "Layout Style Two"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:153
+#: src/blocks/container/components/inspector.js:174
+msgid "Background"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:157
+#: src/blocks/container/components/inspector.js:178
+msgid "Type"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:240
+#: src/blocks/count-up/components/inspector.js:284
+msgid "Sub Heading Color"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:271
+#: src/blocks/count-up/components/inspector.js:327
+msgid "Sub Heading"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:291
+#: src/blocks/container/components/inspector.js:258
+#: src/blocks/count-up/components/inspector.js:383
+#: src/blocks/faq/components/inspector.js:221
+#: src/blocks/star-rating/components/inspector.js:155
+#: src/blocks/testimonial/components/inspector.js:317
+msgid "Margin"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:300
+#: src/blocks/container/components/inspector.js:252
+#: src/blocks/count-up/components/inspector.js:392
+#: src/blocks/faq/components/inspector.js:228
+#: src/blocks/post-slider/components/inspector.js:625
+#: src/blocks/slider/components/inspector.js:678
+#: src/blocks/star-rating/components/inspector.js:146
+#: src/blocks/testimonial/components/inspector.js:310
+msgid "Padding"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:330
+#: src/blocks/count-up/components/inspector.js:444
+msgid "Sub Heading Padding"
+msgstr ""
+
+#: src/blocks/call-to-actions/components/inspector.js:341
+#: src/blocks/count-up/components/inspector.js:455
+msgid "Sub Heading Margin"
+msgstr ""
+
+#: src/blocks/container/components/inspector.js:60
+#: src/blocks/container/components/inspector.js:131
+msgid "Conatiner"
+msgstr ""
+
+#: src/blocks/container/components/inspector.js:135
+msgid "Container Type"
+msgstr ""
+
+#: src/blocks/container/components/inspector.js:137
+msgid "Boxed"
+msgstr ""
+
+#: src/blocks/container/components/inspector.js:139
+msgid "Full Width"
+msgstr ""
+
+#: src/blocks/container/components/inspector.js:155
+msgid "Max Width"
+msgstr ""
+
+#: src/blocks/container/components/inspector.js:165
+msgid "Min Height"
+msgstr ""
+
+#: src/blocks/count-up/components/edit.js:168
+#: src/blocks/icon-box/components/edit.js:200
+msgid "Icon Image..."
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:68
+msgid "Show Icon"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:75
+#: src/blocks/icon-box/components/inspector.js:59
+msgid "Use Image as Icon"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:83
+#: src/blocks/icon-box/components/inspector.js:65
+#: src/blocks/team-member/components/inspector.js:237
+#: src/blocks/testimonial/components/inspector.js:275
+#: src/custom-control/index.js:237
+msgid "Image"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:83
+#: src/blocks/count-up/components/inspector.js:339
+#: src/blocks/icon-box/components/inspector.js:65
+#: src/blocks/icon-box/components/inspector.js:245
+msgid "Icon"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:97
+#: src/blocks/icon-box/components/inspector.js:79
+msgid "Select an Icon"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:105
+msgid "Show Number"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:226
+#: src/blocks/faq/components/inspector.js:151
+#: src/blocks/icon-box/components/inspector.js:161
+#: src/blocks/post-slider/components/inspector.js:411
+#: src/blocks/star-rating/components/inspector.js:115
+#: src/blocks/team-member/components/inspector.js:151
+#: src/blocks/testimonial/components/inspector.js:179
+msgid "Background Color"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:237
+#: src/blocks/faq/components/inspector.js:169
+#: src/blocks/icon-box/components/inspector.js:172
+msgid "Icon Bg Color"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:248
+#: src/blocks/faq/components/inspector.js:179
+#: src/blocks/icon-box/components/inspector.js:183
+#: src/blocks/star-rating/components/inspector.js:125
+msgid "Icon Color"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:261
+msgid "Number Color"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:304
+msgid "Number"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:343
+#: src/blocks/icon-box/components/inspector.js:249
+msgid "Box Size"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:351
+#: src/blocks/faq/components/inspector.js:134
+#: src/blocks/icon-box/components/inspector.js:257
+#: src/blocks/post-slider/components/inspector.js:526
+#: src/blocks/slider/components/inspector.js:579
+#: src/blocks/star-rating/components/inspector.js:46
+msgid "Icon Size"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:402
+msgid "Number Padding"
+msgstr ""
+
+#: src/blocks/count-up/components/inspector.js:413
+msgid "Number Margin"
+msgstr ""
+
+#: src/blocks/faq-item/components/edit.js:102
+msgid "FAQ Item Settings"
+msgstr ""
+
+#: src/blocks/faq-item/components/edit.js:104
+msgid "Initially Open"
+msgstr ""
+
+#: src/blocks/faq-item/components/edit.js:117
+#: src/blocks/icon-box/components/inspector.js:223
+#: src/blocks/post-slider/components/inspector.js:436
+#: src/blocks/slider/components/inspector.js:510
+msgid "Title"
+msgstr ""
+
+#: src/blocks/faq-item/components/edit.js:123
+msgid "Title Here..."
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:47
+msgid "Select Open Icon"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:55
+msgid "Select Close Icon"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:96
+msgid "Icon Position"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:99
+msgid "Right"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:103
+msgid "Left"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:115
+msgid "Item Radius"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:123
+msgid "Icon Settings"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:127
+#: src/custom-control/index.js:293
+msgid "Icon Radius"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:159
+#: src/blocks/icon-box/components/inspector.js:194
+msgid "Title Color"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:189
+msgid "Item Bg Color"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:234
+msgid "Item Margin"
+msgstr ""
+
+#: src/blocks/faq/components/inspector.js:243
+msgid "Item Padding"
+msgstr ""
+
+#: src/blocks/icon-box/components/edit.js:224
+#: src/blocks/team-member/components/edit.js:283
+msgid "Description......."
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:86
+msgid "Show Title"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:92
+#: src/blocks/team-member/components/inspector.js:77
+msgid "Show Description"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:205
+#: src/blocks/team-member/components/inspector.js:184
+msgid "Description Color"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:232
+#: src/blocks/team-member/components/inspector.js:224
+msgid "Description"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:288
+msgid "Box Padding"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:297
+msgid "Box Margin"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:307
+#: src/blocks/post-slider/components/inspector.js:631
+#: src/blocks/slider/components/inspector.js:684
+msgid "Title Padding"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:318
+msgid "Title Margin"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:329
+#: src/blocks/team-member/components/inspector.js:352
+msgid "Description Padding"
+msgstr ""
+
+#: src/blocks/icon-box/components/inspector.js:340
+#: src/blocks/team-member/components/inspector.js:363
+msgid "Description Margin"
+msgstr ""
+
+#: src/blocks/post-slider/components/edit.js:182
+#: src/blocks/post-slider/components/edit.js:191
+msgid "Post Slider"
+msgstr ""
+
+#: src/blocks/post-slider/components/edit.js:192
+msgid "No posts found."
+msgstr ""
+
+#: src/blocks/post-slider/components/edit.js:203
+#: src/blocks/slider/components/edit.js:196
+msgid "(Untitled)"
+msgstr ""
+
+#: src/blocks/post-slider/components/edit.js:324
+#: src/blocks/slider/components/edit.js:249
+msgid "Read More"
+msgstr ""
+
+#: src/blocks/post-slider/components/edit.js:446
+msgid "Please select a post"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:108
+msgid "Select a Post"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:116
+msgid "Query"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:136
+msgid "Post"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:140
+#: src/blocks/slider/components/inspector.js:106
+msgid "Enable Arrow"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:145
+#: src/blocks/slider/components/inspector.js:111
+msgid "Enable Dots"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:150
+msgid "Enable Excerpt"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:155
+msgid "Enable Date"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:160
+msgid "Enable Author"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:165
+msgid "Enable Category"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:170
+msgid "Enable Image"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:175
+msgid "Enable Button"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:194
+#: src/blocks/post-slider/components/inspector.js:246
+#: src/blocks/slider/components/inspector.js:173
+#: src/blocks/slider/components/inspector.js:195
+#: src/blocks/slider/components/inspector.js:247
+#: src/blocks/testimonial/components/inspector.js:262
+msgid "Text"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:198
+#: src/blocks/post-slider/components/inspector.js:250
+#: src/blocks/slider/components/inspector.js:177
+#: src/blocks/slider/components/inspector.js:199
+#: src/blocks/slider/components/inspector.js:251
+msgid "Text Hover"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:205
+#: src/blocks/post-slider/components/inspector.js:216
+#: src/blocks/slider/components/inspector.js:184
+#: src/blocks/slider/components/inspector.js:206
+#: src/blocks/slider/components/inspector.js:217
+msgid "BG"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:209
+#: src/blocks/post-slider/components/inspector.js:220
+#: src/blocks/slider/components/inspector.js:188
+#: src/blocks/slider/components/inspector.js:210
+#: src/blocks/slider/components/inspector.js:221
+msgid "BG Hover"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:345
+#: src/blocks/slider/components/inspector.js:383
+msgid "Slider"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:354
+msgid "Slides To Show"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:358
+#: src/blocks/slider/components/inspector.js:393
+msgid "Autoplay"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:363
+#: src/blocks/slider/components/inspector.js:398
+msgid "Speed"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:419
+#: src/blocks/slider/components/inspector.js:486
+msgid "Dots Color"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:443
+#: src/blocks/slider/components/inspector.js:517
+msgid "Excerpt"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:453
+msgid "Meta"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:461
+#: src/blocks/slider/components/inspector.js:526
+msgid "Button"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:472
+#: src/blocks/slider/components/inspector.js:533
+msgid "Buttons"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:476
+#: src/blocks/post-slider/components/inspector.js:504
+#: src/blocks/post-slider/components/inspector.js:563
+#: src/blocks/post-slider/components/inspector.js:606
+#: src/blocks/slider/components/inspector.js:537
+#: src/blocks/slider/components/inspector.js:616
+#: src/blocks/slider/components/inspector.js:659
+msgid "Radius"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:487
+#: src/blocks/slider/components/inspector.js:548
+msgid "Button Color"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:493
+#: src/blocks/slider/components/inspector.js:554
+msgid "Button BG Color"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:500
+msgid "Images"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:512
+msgid "Height"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:522
+#: src/blocks/slider/components/inspector.js:575
+msgid "Arrow"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:536
+#: src/blocks/slider/components/inspector.js:589
+msgid "Right Arrow"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:546
+#: src/blocks/slider/components/inspector.js:599
+msgid "Left Arrow"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:556
+#: src/blocks/slider/components/inspector.js:609
+msgid "Arrow Size"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:574
+#: src/blocks/slider/components/inspector.js:627
+msgid "Arrow Color"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:580
+#: src/blocks/slider/components/inspector.js:633
+msgid "Arrow BG Color"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:587
+#: src/blocks/slider/components/inspector.js:640
+msgid "Dots"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:591
+#: src/blocks/slider/components/inspector.js:644
+msgid "Dots Size"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:598
+#: src/blocks/slider/components/inspector.js:651
+msgid "Dots Opacity"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:640
+#: src/blocks/slider/components/inspector.js:693
+msgid "Excerpt Padding"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:651
+#: src/blocks/slider/components/inspector.js:702
+msgid "Button Padding"
+msgstr ""
+
+#: src/blocks/post-slider/components/inspector.js:659
+#: src/blocks/slider/components/inspector.js:710
+msgid "Button margin"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:37
+msgid "Show Label"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:44
+msgid "Show Label Inside Bar"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:53
+msgid "Show Completed Percentage"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:141
+msgid "Label Color"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:152
+msgid "Progress Bar Bg"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:165
+msgid "Progress Bar Active Bg"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:178
+msgid "Completed Percentage Color"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:198
+msgid "Label"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:214
+msgid "Progress Bar Padding"
+msgstr ""
+
+#: src/blocks/progress-bar/components/inspector.js:224
+msgid "Progress Bar Margin"
+msgstr ""
+
+#: src/blocks/slider/components/edit.js:176
+#: src/blocks/slider/components/edit.js:185
+msgid "Page Slider"
+msgstr ""
+
+#: src/blocks/slider/components/edit.js:186
+msgid "No pages found."
+msgstr ""
+
+#: src/blocks/slider/components/edit.js:263
+msgid "Custom Link"
+msgstr ""
+
+#: src/blocks/slider/components/edit.js:402
+msgid "Please select a page"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:95
+msgid "Select a Page"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:102
+#: src/custom-control/icon-selector.js:98
+msgid "Page"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:116
+msgid "Use Custom Link"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:121
+msgid "Use Short Description"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:151
+msgid "Link"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:158
+msgid "Short Description"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:387
+msgid "Enable Fade"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:405
+msgid "Min. Height"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:415
+msgid "Content Width"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:478
+msgid "Overlay Color"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:498
+msgid "Overlay Opacity"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:561
+msgid "Custom Button Color"
+msgstr ""
+
+#: src/blocks/slider/components/inspector.js:567
+msgid "Custom Button BG Color"
+msgstr ""
+
+#: src/blocks/team-member/components/edit.js:250
+msgid "Team Image..."
+msgstr ""
+
+#: src/blocks/team-member/components/edit.js:272
+msgid "CEO/Developer"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:65
+msgid "Show Team Name"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:71
+#: src/blocks/testimonial/components/inspector.js:82
+msgid "Show Position"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:82
+msgid "Show Social Link"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:162
+msgid "Team Name Color"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:173
+#: src/blocks/testimonial/components/inspector.js:202
+msgid "Position Color"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:202
+msgid "Team Name"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:213
+#: src/blocks/testimonial/components/inspector.js:251
+msgid "Position"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:241
+#: src/blocks/testimonial/components/inspector.js:279
+#: src/custom-control/index.js:255
+msgid "Image Size"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:272
+msgid "Team Box Padding"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:281
+msgid "Team Box Margin"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:291
+#: src/blocks/testimonial/components/inspector.js:326
+msgid "Image Padding"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:300
+#: src/blocks/testimonial/components/inspector.js:338
+msgid "Image Margin"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:308
+msgid "Team Name Padding"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:319
+msgid "Team Name Margin"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:330
+#: src/blocks/testimonial/components/inspector.js:369
+msgid "Position Padding"
+msgstr ""
+
+#: src/blocks/team-member/components/inspector.js:341
+#: src/blocks/testimonial/components/inspector.js:380
+msgid "Position Margin"
+msgstr ""
+
+#: src/blocks/testimonial/components/edit.js:223
+msgid "Testimonial Image"
+msgstr ""
+
+#: src/blocks/testimonial/components/edit.js:236
+msgid "John Doe"
+msgstr ""
+
+#: src/blocks/testimonial/components/edit.js:247
+msgid "CEO/XYZ Company"
+msgstr ""
+
+#: src/blocks/testimonial/components/edit.js:274
+msgid "Donec elit libero sodales nec....."
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:64
+msgid "Show Image"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:76
+msgid "Show Name"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:88
+msgid "Show Text"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:94
+msgid "Show Quote Icon"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:100
+msgid "Show Rating"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:158
+msgid "Quote Icon Size"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:192
+msgid "Name Color"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:212
+msgid "Text Color"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:224
+msgid "Quote Icon Color"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:242
+msgid "Name"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:349
+msgid "Name Padding"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:360
+msgid "Name Margin"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:391
+msgid "Text Padding"
+msgstr ""
+
+#: src/blocks/testimonial/components/inspector.js:402
+msgid "Text Margin"
+msgstr ""
+
+#: src/components/exporter.js:9
+msgid "Export Block"
+msgstr ""
+
+#: src/components/importer.js:199
+msgid "Insert "
+msgstr ""
+
+#: src/components/importer.js:213
+msgid "Get Pro "
+msgstr ""
+
+#: src/components/importer.js:335
+msgid "All "
+msgstr ""
+
+#: src/components/importer.js:342
+msgid "Free"
+msgstr ""
+
+#: src/components/importer.js:349
+msgid "Pro"
+msgstr ""
+
+#: src/components/importer.js:355
+msgid "Talk To Support"
+msgstr ""
+
+#: src/components/importer.js:363
+msgid "Buy Pro Now"
+msgstr ""
+
+#: src/components/pagination.js:118
+msgid "Previous"
+msgstr ""
+
+#: src/components/pagination.js:138
+msgid "Next"
+msgstr ""
+
+#: src/custom-control/dimension.js:137
+#: src/custom-control/responsive-range-wrapper.js:38
+#: src/custom-control/typography.js:64
+msgid "Reset"
+msgstr ""
+
+#: src/custom-control/icon-selector.js:139
+msgid "Search Icons"
+msgstr ""
+
+#: src/custom-control/icon-selector.js:146
+msgid " Icons"
+msgstr ""
+
+#: src/custom-control/icon-selector.js:177
+msgid "Selected Icon"
+msgstr ""
+
+#: src/custom-control/image-control.js:56
+msgid "Delete Image"
+msgstr ""
+
+#: src/custom-control/image-position.js:42
+msgid "Image Position"
+msgstr ""
+
+#: src/custom-control/index.js:25
+msgid "Number of Items per Row"
+msgstr ""
+
+#: src/custom-control/index.js:38
+#: src/custom-control/index.js:57
+msgid "Tag"
+msgstr ""
+
+#: src/custom-control/index.js:71
+msgid "Background Position"
+msgstr ""
+
+#: src/custom-control/index.js:82
+msgid "Background Repeat"
+msgstr ""
+
+#: src/custom-control/index.js:93
+msgid "Background Size"
+msgstr ""
+
+#: src/custom-control/index.js:105
+#: src/custom-control/typography.js:77
+msgid "Font Size"
+msgstr ""
+
+#: src/custom-control/index.js:119
+msgid "Thickness"
+msgstr ""
+
+#: src/custom-control/index.js:131
+msgid "Border Width"
+msgstr ""
+
+#: src/custom-control/index.js:143
+msgid "Width"
+msgstr ""
+
+#: src/custom-control/index.js:155
+msgid "Opacity"
+msgstr ""
+
+#: src/custom-control/index.js:215
+msgid "Background Overlay"
+msgstr ""
+
+#: src/custom-control/index.js:235
+msgid "Background Type"
+msgstr ""
+
+#: src/custom-control/index.js:239
+msgid "Gradient"
+msgstr ""
+
+#: src/custom-control/index.js:267
+msgid "URL"
+msgstr ""
+
+#: src/custom-control/index.js:277
+msgid "Border Style"
+msgstr ""
+
+#: src/custom-control/index.js:279
+msgid "None"
+msgstr ""
+
+#: src/custom-control/index.js:280
+msgid "Solid"
+msgstr ""
+
+#: src/custom-control/index.js:281
+msgid "Dashed"
+msgstr ""
+
+#: src/custom-control/index.js:282
+msgid "Double"
+msgstr ""
+
+#: src/custom-control/index.js:283
+msgid "Dotted"
+msgstr ""
+
+#: src/custom-control/index.js:309
+msgid "Excerpt Length"
+msgstr ""
+
+#: src/custom-control/index.js:331
+msgid "Fixed Background"
+msgstr ""
+
+#: src/custom-control/repeater.js:55
+msgid "Add New"
+msgstr ""
+
+#: src/custom-control/typography.js:81
+msgid "Font Family"
+msgstr ""
+
+#: src/custom-control/typography.js:129
+msgid "Text transform"
+msgstr ""
+
+#: src/custom-control/typography.js:138
+msgid "Font Weight"
+msgstr ""
+
+#: src/custom-control/typography.js:154
+msgid "Line Height"
+msgstr ""
+
+#: src/custom-control/video-control.js:43
+msgid "Delete Video"
+msgstr ""

@@ -1,0 +1,122 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/slider/styles/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-gutentools-slider {
+  position: relative;
+}
+.wp-block-gutentools-slider .gutentools-page-slider-init.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+.wp-block-gutentools-slider .slick-dots {
+  position: absolute;
+  bottom: 35px;
+  z-index: 9;
+  display: flex;
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  width: 100%;
+}
+.wp-block-gutentools-slider .slick-dots li {
+  margin: 0 5px;
+}
+.wp-block-gutentools-slider .slick-dots button {
+  height: 20px;
+  width: 20px;
+  background: #000;
+  border-radius: 50%;
+  opacity: 0.3;
+  transition: all 0.3s;
+  font-size: 0;
+  border: none;
+}
+.wp-block-gutentools-slider .slick-dots button:before {
+  display: none;
+}
+.wp-block-gutentools-slider .slick-dots button:hover {
+  opacity: 1;
+}
+.wp-block-gutentools-slider .slick-dots li.slick-active button {
+  opacity: 1;
+}
+.wp-block-gutentools-slider .gutentools-slider-arrow {
+  right: 15px;
+  position: absolute;
+  top: 50%;
+  z-index: 9;
+  transform: translate(0, -50%);
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border-radius: 50%;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.wp-block-gutentools-slider .gutentools-slider-arrow.gutentools-next-arrow {
+  left: 15px;
+  right: auto;
+}
+.wp-block-gutentools-slider .gutentools-slider-arrow:hover {
+  background-color: #000;
+  color: #fff;
+}
+.wp-block-gutentools-slider .gutentools-page-slider-wrapper {
+  position: relative;
+  padding: 15px;
+  min-height: 550px;
+}
+.wp-block-gutentools-slider .gutentools-page-slider-wrapper .gutentools-page-slider-overlay {
+  position: absolute;
+  /*			background: #000;*/
+  height: 100%;
+  width: 100%;
+  /*			opacity: 0.6;*/
+  right: 0;
+}
+.wp-block-gutentools-slider .gutentools-page-slider-wrapper .gutentools-page-slider-content {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 99;
+  width: 100%;
+}
+.wp-block-gutentools-slider .gutentools-page-slider-wrapper .gutentools-page-slider-content .gutentools-page-slider-content-inner .gutentools-page-title {
+  color: #fff;
+}
+.wp-block-gutentools-slider .gutentools-page-slider-wrapper .gutentools-page-slider-content .gutentools-page-slider-content-inner p {
+  color: #fff;
+}
+.wp-block-gutentools-slider .gutentools-page-slider-wrapper .gutentools-page-slider-image {
+  position: absolute;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  right: 0;
+}
+.wp-block-gutentools-slider .gutentools-slider-btn-wrapper a {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.3s;
+  border-radius: 3px;
+  margin: 0 8px;
+}
+
+.gutentools-progress-bar {
+  width: 100% !important;
+}

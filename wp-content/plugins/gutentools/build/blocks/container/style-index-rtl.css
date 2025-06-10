@@ -1,0 +1,50 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/container/styles/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.gutentools-container-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.gutentools-section-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  top: 0;
+}
+
+.gutentools-container-content-wrapper {
+  position: relative;
+  z-index: 9;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gutentools-container-content-wrapper > div {
+  width: 100%;
+}
+.gutentools-container-content-wrapper.is-align-top {
+  align-items: flex-start;
+}
+.gutentools-container-content-wrapper.is-align-middle {
+  align-items: center;
+}
+.gutentools-container-content-wrapper.is-align-bottom {
+  align-items: flex-end;
+}
+.gutentools-container-content-wrapper.is-content-justify-left {
+  margin-left: auto;
+}
+.gutentools-container-content-wrapper.is-content-justify-right {
+  margin-right: auto;
+}
+.gutentools-container-content-wrapper.is-content-justify-center {
+  margin-right: auto;
+  margin-left: auto;
+}
