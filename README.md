@@ -17,5 +17,14 @@ run `docker compose --env-file .env up`
 git clone https://github.com/YOUR_USERNAME/wordpress-gcp-cloudrun.git
 cd wordpress-gcp-cloudrun
 docker-compose up -d
+```
 
-
+## When Cloning
+1. Include generate a new .env file with the following variables
+```bash
+CFA_WP_DB_HOST=cloudsqlproxy
+CFA_WP_DB_PORT=3306
+CFA_WP_DB_USER=[YOUR-USERNAME]
+CFA_WP_DB_PASS=[YOUR-SECRET-PASSWORD]
+CFA_WP_DB_NAME=wordpress
+```
