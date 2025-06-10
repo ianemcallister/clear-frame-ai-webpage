@@ -1,16 +1,13 @@
-# Use official WordPress image
 FROM wordpress:latest
 
-# Install iptables to redirect port 8080 → 80
-RUN apt-get update && apt-get install -y iptables \
-  && iptables -t nat -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+# Set Apache to listen on port 8080 (Cloud Run requirement)
+RUN sed -i 's/80/${PORT}/g' /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf
 
-# Cloud Run expects your container to listen on port 8080
-EXPOSE 8080
+# Set Cloud Run's expected port
 ENV PORT=8080
+EXPOSE 8080
 
-# Copy your custom wp-content (themes, plugins, etc.)
+# Copy in your custom themes/plugins/etc.
 COPY wp-content /var/www/html/wp-content
 
-# Start Apache (same as in original image)
 CMD ["apache2-foreground"]
