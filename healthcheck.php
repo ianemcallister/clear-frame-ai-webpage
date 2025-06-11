@@ -33,12 +33,13 @@ if (empty($missing_vars)) {
     $socket = getenv('WORDPRESS_DB_HOST');
 
     $mysqli = new mysqli(
-        $host,
+        //$host,
+        getenv('WORDPRESS_DB_HOST'),
         getenv('WORDPRESS_DB_USER'),
         getenv('WORDPRESS_DB_PASSWORD'),
-        getenv('WORDPRESS_DB_NAME'),
-        (int)getenv('CFA_WP_DB_PORT'),
-        $socket
+        getenv('WORDPRESS_DB_NAME')//,
+        //(int)getenv('CFA_WP_DB_PORT')//,
+        //$socket
     );
 
     if ($mysqli->connect_error) {
