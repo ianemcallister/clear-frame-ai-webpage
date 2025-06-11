@@ -18,18 +18,30 @@
  * @package WordPress
  */
 
+// ** Logging settings - You can get this info from your web host ** //
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+if (defined('WP_DEBUG') && WP_DEBUG) {
+    error_log("ENV DEBUG - DB_NAME: " . getenv('CFA_WP_DB_NAME'));
+    error_log("ENV DEBUG - DB_USER_SECRET: " . getenv('DB_USER_SECRET'));
+    error_log("ENV DEBUG - DB_PASS_SECRET: " . getenv('DB_PASS_SECRET') ? '*****' : 'MISSING');
+    error_log("ENV DEBUG - DB_HOST: " . getenv('CFA_WP_DB_HOST'));
+}
+
+
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', getenv('CFA_WP_DB_NAME') ?: 'wordpress');
 
 /** Database username */
-define('DB_USER', getenv('DB_USER_SECRET') ?: 'username_here');
+define('DB_USER', getenv('DB_USER_SECRET') ?: 'wordpress_user');
 
 /** Database password */
-define('DB_PASSWORD', getenv('DB_PASS_SECRET') ?: 'password_here');
+define('DB_PASSWORD', getenv('DB_PASS_SECRET') ?: '*****');
 
 /** Database hostname */
-define('DB_HOST', getenv('CFA_WP_DB_HOST') ?: 'localhost');
+define('DB_HOST', getenv('CFA_WP_DB_HOST') ?: '/cloudsql/dev-portfolio-435323:us-west1:clear-frame-ai');
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
