@@ -27,16 +27,16 @@ define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', getenv('WORDPRESS_DB_NAME') ?: 'holding');
+define('DB_NAME', getenv('CFA_WP_DB_NAME') ?: 'holding');
 
 /** Database username */
-define('DB_USER', getenv('WORDPRESS_DB_USER') ?: 'holding');
+define('DB_USER', getenv('DB_USER_SECRET') ?: 'holding');
 
 /** Database password */
-define('DB_PASSWORD', getenv('WORDPRESS_DB_PASSWORD') ?: 'holding');
+define('DB_PASSWORD', getenv('DB_PASS_SECRET') ?: 'holding');
 
 /** Database hostname */
-define('DB_HOST', getenv('WORDPRESS_DB_HOST') ?: 'holding');
+define('DB_HOST', getenv('CFA_WP_DB_HOST') ?: 'holding');
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
