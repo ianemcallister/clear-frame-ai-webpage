@@ -25,7 +25,7 @@ define( 'WP_DEBUG_DISPLAY', false );
 if (defined('WP_DEBUG') && WP_DEBUG) {
     error_log("ENV DEBUG - DB_NAME: " . getenv('CFA_WP_DB_NAME'));
     error_log("ENV DEBUG - DB_USER_SECRET: " . getenv('DB_USER_SECRET'));
-    error_log("ENV DEBUG - DB_PASS_SECRET: " . getenv('DB_PASS_SECRET') ? '*****' : 'MISSING');
+    error_log("ENV DEBUG - DB_PASS_SECRET: " . getenv('DB_PASS_SECRET'));
     error_log("ENV DEBUG - DB_HOST: " . getenv('CFA_WP_DB_HOST'));
 }
 
