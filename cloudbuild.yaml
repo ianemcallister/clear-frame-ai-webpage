@@ -16,8 +16,12 @@ steps:
     args:
       - '-c'
       - |
-        DB_USER=$(cat "$$DB_USER_SECRET")
-        DB_PASS=$(cat "$$DB_PASS_SECRET")
+        echo "=== Debug: DB_USER_SECRET content ==="
+        cat "$$DB_USER_SECRET"
+        echo "=== Debug: DB_PASS_SECRET content ==="
+        cat "$$DB_PASS_SECRET"
+
+        # Recommended: Use Cloud Run native secret injection instead of manual reading
         gcloud run deploy clear-frame-ai-webpage \
           --image=gcr.io/$PROJECT_ID/clear-frame-ai-webpage:latest \
           --region=us-west1 \
@@ -25,7 +29,9 @@ steps:
           --allow-unauthenticated \
           --add-cloudsql-instances=$PROJECT_ID:us-west1:clear-frame-ai \
           --service-account=clear-frame-ai-wp@dev-portfolio-435323.iam.gserviceaccount.com \
-          --set-env-vars=WORDPRESS_DB_HOST=/cloudsql/$PROJECT_ID:us-west1:clear-frame-ai,WORDPRESS_DB_NAME=wordpress,WORDPRESS_DB_USER=$DB_USER,WORDPRESS_DB_PASSWORD=$DB_PASS,WORDPRESS_DB_PORT=3306
+          --update-secrets=WORDPRESS_DB_USER=projects/$PROJECT_ID/secrets/CFA-WP-DB-USER:latest,WORDPRESS_DB_PASSWORD=projects/$PROJECT_ID/secrets/CFA-WP-DB-PASS:latest \
+          --set-env-vars=WORDPRESS_DB_HOST=/cloudsql/$PROJECT_ID:us-west1:clear-frame-ai,WORDPRESS_DB_NAME=wordpress,WORDPRESS_DB_PORT=3306
+
     secretEnv:
       - DB_USER_SECRET
       - DB_PASS_SECRET
