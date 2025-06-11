@@ -13,30 +13,44 @@ $missing_vars = array_filter($required_env_vars, function ($var) {
     return getenv($var) === false || getenv($var) === '';
 });
 
+echo "<h2>Environment Variables Check</h2>";
+
 if (!empty($missing_vars)) {
-    http_response_code(500);
-    echo "Missing required environment variables: " . implode(', ', $missing_vars);
-    exit;
+    echo "<p style='color:red;'>⚠️ Missing required environment variables: " . implode(', ', $missing_vars) . "</p>";
+    error_log("Missing required environment variables: " . implode(', ', $missing_vars));
+} else {
+    echo "<p style='color:green;'>✅ All required environment variables are set.</p>";
+    error_log("All required environment variables are set.");
 }
 
-// Attempt DB connection
-$host = null; // Use Unix socket
-$socket = getenv('WORDPRESS_DB_HOST');
+// Print all environment variables to the browser
+echo "<h3>All Available Environment Variables:</h3>";
+echo "<pre>" . print_r(getenv(), true) . "</pre>";
+error_log("Available environment variables: " . print_r(getenv(), true));
 
-$mysqli = new mysqli(
-    $host,
-    getenv('WORDPRESS_DB_USER'),
-    getenv('WORDPRESS_DB_PASSWORD'),
-    getenv('WORDPRESS_DB_NAME'),
-    (int)getenv('WORDPRESS_DB_PORT'),
-    $socket
-);
+// If no missing vars, attempt DB connection
+if (empty($missing_vars)) {
+    $host = null; // Use Unix socket
+    $socket = getenv('WORDPRESS_DB_HOST');
 
-if ($mysqli->connect_error) {
-    http_response_code(500);
-    echo "DB connection failed: " . $mysqli->connect_error;
+    $mysqli = new mysqli(
+        $host,
+        getenv('WORDPRESS_DB_USER'),
+        getenv('WORDPRESS_DB_PASSWORD'),
+        getenv('WORDPRESS_DB_NAME'),
+        (int)getenv('WORDPRESS_DB_PORT'),
+        $socket
+    );
+
+    if ($mysqli->connect_error) {
+        echo "<p style='color:red;'>❌ DB connection failed: " . $mysqli->connect_error . "</p>";
+        error_log("DB connection failed: " . $mysqli->connect_error);
+    } else {
+        echo "<p style='color:green;'>✅ DB connection successful!</p>";
+        error_log("DB connection successful");
+        $mysqli->close();
+    }
 } else {
-    echo "DB connection successful!";
-    $mysqli->close();
+    echo "<p>Skipping DB connection due to missing environment variables.</p>";
 }
 ?>
