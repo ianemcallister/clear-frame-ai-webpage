@@ -1,10 +1,14 @@
 <?php
+$host = null; // NULL tells mysqli to use the UNIX socket instead of TCP/IP
+$socket = getenv('WORDPRESS_DB_HOST'); // This is something like /cloudsql/...
+
 $mysqli = new mysqli(
-    getenv('WORDPRESS_DB_HOST'),
+    $host,
     getenv('WORDPRESS_DB_USER'),
     getenv('WORDPRESS_DB_PASSWORD'),
     getenv('WORDPRESS_DB_NAME'),
-    getenv('WORDPRESS_DB_PORT')
+    getenv('WORDPRESS_DB_PORT'),
+    $socket
 );
 
 if ($mysqli->connect_error) {
