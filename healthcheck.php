@@ -1,11 +1,11 @@
 <?php
 // Required environment variables
 $required_env_vars = [
-    'WORDPRESS_DB_HOST',
-    'WORDPRESS_DB_USER',
-    'WORDPRESS_DB_PASSWORD',
-    'WORDPRESS_DB_NAME',
-    'WORDPRESS_DB_PORT'
+    'CFA_WP_DB_HOST',
+    'DB_USER_SECRET',
+    'DB_PASS_SECRET',
+    'CFA_WP_DB_NAME',
+    'CFA_WP_DB_PORT'
 ];
 
 // Check for missing variables
@@ -31,14 +31,14 @@ error_log("Available environment variables: " . print_r(getenv(), true));
 // If no missing vars, attempt DB connection
 if (empty($missing_vars)) {
     $host = null; // Use Unix socket
-    $socket = getenv('WORDPRESS_DB_HOST');
+    $socket = getenv('CFA_WP_DB_HOST');
 
     $mysqli = new mysqli(
         $host,
-        getenv('WORDPRESS_DB_USER'),
-        getenv('WORDPRESS_DB_PASSWORD'),
-        getenv('WORDPRESS_DB_NAME'),
-        (int)getenv('WORDPRESS_DB_PORT'),
+        getenv('DB_USER_SECRET'),
+        getenv('DB_USER_SECRET'),
+        getenv('CFA_WP_DB_NAME'),
+        (int)getenv('CFA_WP_DB_PORT'),
         $socket
     );
 
