@@ -98,10 +98,14 @@ define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 if (defined('WP_DEBUG') && WP_DEBUG) {
-    error_log("ENV DEBUG - DB_NAME: " . getenv('DB_NAME'));
-    error_log("ENV DEBUG - DB_USER: " . getenv('DB_USER'));
-    error_log("ENV DEBUG - DB_PASSWORD: " . getenv('DB_PASSWORD'));
-    error_log("ENV DEBUG - DB_HOST: " . getenv('DB_HOST'));
+	error_log("ENV DEBUG - WORDPRESS_DB_NAME: " . getenv('WORDPRESS_DB_NAME'));
+	error_log("ENV DEBUG - WORDPRESS_DB_USER: " . getenv('WORDPRESS_DB_USER'));
+	error_log("ENV DEBUG - WORDPRESS_DB_PASSWORD: " . getenv('WORDPRESS_DB_PASSWORD'));
+	error_log("ENV DEBUG - WORDPRESS_DB_HOST: " . getenv('WORDPRESS_DB_HOST'));
+    error_log("VAR DEBUG - DB_NAME: " . DB_NAME);
+    error_log("VAR DEBUG - DB_USER: " . DB_USER);
+    error_log("VAR DEBUG - DB_PASSWORD: " . DB_PASSWORD);
+    error_log("VAR DEBUG - DB_HOST: " . DB_HOST);
 }
 
 
