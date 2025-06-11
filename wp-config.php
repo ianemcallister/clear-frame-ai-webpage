@@ -18,6 +18,13 @@
  * @package WordPress
  */
 
+// Force HTTPS if behind a proxy like Cloud Run
+if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') {
+    $_SERVER['HTTPS'] = 'on';
+}
+define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
+
 // ** Logging settings - You can get this info from your web host ** //
 define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', true );
