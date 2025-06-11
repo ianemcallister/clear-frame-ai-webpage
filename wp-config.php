@@ -31,8 +31,8 @@ define( 'WP_DEBUG_LOG', true );
 define( 'WP_DEBUG_DISPLAY', false );
 if (defined('WP_DEBUG') && WP_DEBUG) {
     error_log("ENV DEBUG - DB_NAME: " . getenv('CFA_WP_DB_NAME'));
-    error_log("ENV DEBUG - DB_USER_SECRET: " . getenv('DB_USER_SECRET'));
-    error_log("ENV DEBUG - DB_PASS_SECRET: " . getenv('DB_PASS_SECRET'));
+    error_log("ENV DEBUG - WORDPRESS_DB_USER: " . getenv('WORDPRESS_DB_USER'));
+    error_log("ENV DEBUG - WORDPRESS_DB_PASSWORD: " . getenv('WORDPRESS_DB_PASSWORD'));
     error_log("ENV DEBUG - DB_HOST: " . getenv('CFA_WP_DB_HOST'));
 }
 
@@ -42,10 +42,10 @@ if (defined('WP_DEBUG') && WP_DEBUG) {
 define('DB_NAME', getenv('CFA_WP_DB_NAME') ?: 'wordpress');
 
 /** Database username */
-define('DB_USER', getenv('DB_USER_SECRET') ?: 'wordpress_user');
+define('DB_USER', getenv('WORDPRESS_DB_USER') ?: 'wordpress_user');
 
 /** Database password */
-define('DB_PASSWORD', getenv('DB_PASS_SECRET') ?: '*****');
+define('DB_PASSWORD', getenv('WORDPRESS_DB_PASSWORD') ?: '*****');
 
 /** Database hostname */
 define('DB_HOST', getenv('CFA_WP_DB_HOST') ?: '/cloudsql/dev-portfolio-435323:us-west1:clear-frame-ai');
