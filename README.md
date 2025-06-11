@@ -35,3 +35,7 @@ Service account must have cloud permissions for
 
 
 Make sure that the comput engine has all the required permissions
+
+In order to have mysql access in GCP we need to use a VPC network
+1. Create a VPC netowrk
+2. Create cloud sql instance
