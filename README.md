@@ -32,3 +32,6 @@ CFA_WP_DB_NAME=wordpress
 Service account must have cloud permissions for
 1. Cloud SQL Client
 2. Secret Manager Secret Access
+
+
+Make sure that the comput engine has all the required permissions
