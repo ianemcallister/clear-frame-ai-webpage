@@ -11,7 +11,7 @@ steps:
       - 'push'
       - 'gcr.io/$PROJECT_ID/clear-frame-ai-webpage:latest'
 
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk:latest'
     entrypoint: /bin/sh
     args:
       - '-c'
