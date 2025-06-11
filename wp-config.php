@@ -25,30 +25,18 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
 define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST']);
 
-// ** Logging settings - You can get this info from your web host ** //
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_LOG', true );
-define( 'WP_DEBUG_DISPLAY', false );
-if (defined('WP_DEBUG') && WP_DEBUG) {
-    error_log("ENV DEBUG - DB_NAME: " . getenv('CFA_WP_DB_NAME'));
-    error_log("ENV DEBUG - WORDPRESS_DB_USER: " . getenv('WORDPRESS_DB_USER'));
-    error_log("ENV DEBUG - WORDPRESS_DB_PASSWORD: " . getenv('WORDPRESS_DB_PASSWORD'));
-    error_log("ENV DEBUG - DB_HOST: " . getenv('CFA_WP_DB_HOST'));
-}
-
-
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', getenv('CFA_WP_DB_NAME') ?: 'wordpress');
+define('DB_NAME', getenv('WORDPRESS_DB_NAME') ?: 'holding');
 
 /** Database username */
-define('DB_USER', getenv('WORDPRESS_DB_USER') ?: 'wordpress_user');
+define('DB_USER', getenv('WORDPRESS_DB_USER') ?: 'holding');
 
 /** Database password */
-define('DB_PASSWORD', getenv('WORDPRESS_DB_PASSWORD') ?: '*****');
+define('DB_PASSWORD', getenv('WORDPRESS_DB_PASSWORD') ?: 'holding');
 
 /** Database hostname */
-define('DB_HOST', getenv('CFA_WP_DB_HOST') ?: '/cloudsql/dev-portfolio-435323:us-west1:clear-frame-ai');
+define('DB_HOST', getenv('WORDPRESS_DB_HOST') ?: 'holding');
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -104,10 +92,17 @@ $table_prefix = 'wp_';
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', transliterator_create_from_rules );
 
 /* Add any custom values between this line and the "stop editing" line. */
-
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+if (defined('WP_DEBUG') && WP_DEBUG) {
+    error_log("ENV DEBUG - DB_NAME: " . getenv('DB_NAME'));
+    error_log("ENV DEBUG - DB_USER: " . getenv('DB_USER'));
+    error_log("ENV DEBUG - DB_PASSWORD: " . getenv('DB_PASSWORD'));
+    error_log("ENV DEBUG - DB_HOST: " . getenv('DB_HOST'));
+}
 
 
 /* That's all, stop editing! Happy publishing. */
