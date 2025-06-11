@@ -36,7 +36,7 @@ if (empty($missing_vars)) {
     $mysqli = new mysqli(
         $host,
         getenv('DB_USER_SECRET'),
-        getenv('DB_USER_SECRET'),
+        getenv('DB_PASS_SECRET'),
         getenv('CFA_WP_DB_NAME'),
         (int)getenv('CFA_WP_DB_PORT'),
         $socket
