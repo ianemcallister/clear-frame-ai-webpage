@@ -13,6 +13,6 @@ COPY wp-content /var/www/html/wp-content
 COPY healthcheck.php /var/www/html/healthcheck.php
 
 # ✅ Copy custom wp-config.php to the WordPress root
-COPY wp-config.php /var/www/html/wp-config.php
+# COPY wp-config.php /var/www/html/wp-config.php
 
 CMD ["apache2-foreground"]
